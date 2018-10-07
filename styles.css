@@ -1,0 +1,111 @@
+.animation {
+	background: linear-gradient(270deg, #ffc0cb, #40e0d0, #ee82ee);
+	background-size: 600% 600%;
+	animation: animation 30s ease infinite;
+}
+
+@keyframes animation { 
+    0% {
+    	background-position: 0% 50%
+    }
+    50% {
+    	background-position: 100% 50%
+    }
+    100% {
+    	background-position: 0% 50%
+    }
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+img, iframe {
+	display: block;
+	margin: auto;
+}
+
+.icons, li {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .image1 {
+        width: 250px;
+    }
+
+    .image2 {
+        height: 125px;
+    }
+
+    .image3 {
+    	height: 250px;
+    }
+
+    .map {
+        width: 320px;
+        height: 240px;
+    }
+
+    #comment {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .image1 {
+        width: 500px;
+    }
+
+    .image2 {
+        height: 250px;
+    }
+
+    .image3 {
+    	height: 375px;
+    }
+
+    .map {
+        width: 480px;
+        height: 360px;
+    }
+
+    #comment {
+        width: 375px;
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .image1 {
+        width: 500px;
+    }
+
+    .image2 {
+        height: 250px;
+    }
+
+    .image3 {
+    	height: 500px;
+    }
+
+    .map {
+        width: 640px;
+        height: 480px;
+    }
+
+    #comment {
+        width: 375px;
+        height: auto;
+        text-align: center;
+    }
+}
